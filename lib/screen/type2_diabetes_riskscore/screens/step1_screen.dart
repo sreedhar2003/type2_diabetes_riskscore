@@ -109,9 +109,8 @@ class Step1ScreenState extends State<Step1Screen> {
                         bool isSelected1 = provider.selectedIndex == index;
                         return GestureDetector(
                           onTap: () {
-                            setState(() {
-                              provider.selectedIndex = index;
-                            });
+                            provider.selectAge(index);
+                            // provider.selectedIndex = index;
                           },
                           child: Button2(
                               buttoncolor: isSelected1
@@ -143,8 +142,8 @@ class Step1ScreenState extends State<Step1Screen> {
                           borderRadius: BorderRadius.circular(82),
                           gradient: const LinearGradient(
                             colors: [
-                              AppColors.headingcolor,
-                              AppColors.titlecolor,
+                              AppColors.gradientcolor1,
+                              AppColors.gradientcolor2,
                             ],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,

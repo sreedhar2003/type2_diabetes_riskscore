@@ -10,7 +10,7 @@ class SemiCircleGauge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.containercolor, // light green background
+      backgroundColor: AppColors.transparent,
       body: Center(
         child: CustomPaint(
           size: Size(250, 125), // width, height

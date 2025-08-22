@@ -21,8 +21,8 @@ class Button1 extends StatelessWidget {
         borderRadius: BorderRadius.circular(82),
         gradient: const LinearGradient(
           colors: [
-            AppColors.headingcolor,
-            AppColors.titlecolor,
+            AppColors.gradientcolor1,
+            AppColors.gradientcolor2,
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,

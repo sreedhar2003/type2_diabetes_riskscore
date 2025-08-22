@@ -14,4 +14,6 @@ class AppColors {
   static const Color orange = Colors.amber;
   static const Color percentagebg = Color.fromRGBO(211, 228, 213, 1);
   static const Color lightblue = Color(0xFFBDE8F9);
+  static const Color gradientcolor1 = Color.fromRGBO(1, 167, 73, 1);
+  static const Color gradientcolor2 = Color.fromRGBO(1, 246, 120, 1);
 }
